@@ -1,0 +1,5 @@
+starter = input("Enter your starter: ")
+maincourse = input("Enter your Main course: ")
+dessert = input("Enter your Dessert: ")
+drink = input("Enter your Drink: ")
+print(f"Your favourite meal is {starter} , {maincourse} , {dessert} with a glass of {drink }!")
