@@ -1,0 +1,20 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+https://googleads.g.doubleclick.net/aclk?sa=l&ai=CCfoWMlLlYZTpLv6JwuIPlcu8-A-sit3sZ-nZkqOyD2QQASD24OUkYLveuoPQCqABgISm-QLIAQmpAqQMZnbc8bY-qAMByAPLBKoEswJP0Pnb7-uJ6mrggKW9DzyquiCLw8Pjn_WARP5AiSx8XzjTy3WgH3wt_Iyphi20kNbacsf5AocYTFnYBGa_Bsszf8KX5ayRbJjrK9kUDlEeaZilM2lzpXMFQGSI9AugDnM2qIt5mY_fKWzpYZFNBigBCsOKO2mXTMulWpZfOONEqWGb22ClObbLZ63gu1Zflkdnkj7meJ-rzHi-eFby4RIf0ycOVvVl95gWTFSbLXKLBEPgUyPqJgQ1eY-n6RP9RpoYOk7cMB83mNXcrtQBKzt-vsduD2IlVEIL_KZeQtQXp6Gxb-NNGyPDFn4EGi8-dwj5rzkFMLKq-zQ30PFRrgx6Sk6LuuGw4l4bukGd5i7kO6-sOsfyjWk3G-JsdHfJxD8_g4zFzMhxRnm3aneWp8N3dQF9wATXssza9AOgBi7SBg8Q2Y-NlAEYt7zVgLwFKAeAB6mTp9ECqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgH1ckbqAemvhuoB_PRG6gHltgbqAeqm7ECqAffn7EC2AcAwAgB0ggJCIjhgBAQARgfgAoBmAsByAsBgAwBmAz0qYqehwS4DAG4E4ME2BMO0BUB-BYBgBcB&num=1&sig=AOD64_1DAiNEtrIyZ0uk8YUXaAuJFU1mzQ&ae=1&ctype=77&nb=33&adurl=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace%2F%2F%4052.413723%2C-1.82932%2C14z%2Fdata%3D!4m2!3m1!1s0x4870b974f0bb7769%3A0x4f8147da07e4d820!11m3!1m1!1e4!5shttps%3A%252F%252Fgoogleads.g.doubleclick.net%252Fpagead%252Fconversion%252F%253Fai%253DCTiKsMlLlYZTpLv6JwuIPlcu8-A-sit3sZ-nZkqOyD2QQASD24OUkYLveuoPQCqABgISm-QLIAQmpAqQMZnbc8bY-qAMByAPLBKoEswJP0Pnb7-uJ6mrggKW9DzyquiCLw8Pjn_WARP5AiSx8XzjTy3WgH3wt_Iyphi20kNbacsf5AocYTFnYBGa_Bsszf8KX5ayRbJjrK9kUDlEeaZilM2lzpXMFQGSI9AugDnM2qIt5mY_fKWzpYZFNBigBCsOKO2mXTMulWpZfOONEqWGb22ClObbLZ63gu1Zflkdnkj7meJ-rzHi-eFby4RIf0ycOVvVl95gWTFSbLXKLBEPgUyPqJgQ1eY-n6RP9RpoYOk7cMB83mNXcrtQBKzt-vsduD2IlVEIL_KZeQtQXp6Gxb-NNGyPDFn4EGi8-dwj5rzkFMLKq-zQ30PFRrgx6Sk6LuuGw4l4bukGd5i7kO6-sOsfyjWk3G-JsdHfJxD8_g4zFzMhxRnm3aneWp8N3dQF9wATXssza9AOgBi6AB6mTp9ECqAeOzhuoB5PYG6gH7paxAqgH_p6xAqgH1ckbqAemvhuoB_PRG6gHltgbqAeqm7ECqAffn7EC2AcA0ggJCIjhgBAQARgfsQmP0DvoDd2jl4AKAYoKgwJodHRwczovL2NsaWNrc2VydmUuZGFydHNlYXJjaC5uZXQvbGluay9jbGljaz8mZHNfYV9jaWQ9NzA4MjM5NTAzJmRzX2FfY2FpZD0xNTQ5NjEyODkzNiZkc19hX2FnaWQ9MTM0NDA3NzIzMzUxJmRzX2FfZmlpZD0mZHNfYV9saWQ9JmRzX2FfZXh0aWQ9JiZkc19lX2FkaWQ9NTcxNDg5ODEzMzIzJmRzX2VfbWF0Y2h0eXBlPWNvbnRlbnQmZHNfZV9kZXZpY2U9YyZkc19lX25ldHdvcms9ZCYmZHNfdXJsX3Y9MiZkc19kZXN0X3VybD17dW5lc2NhcGVkbHB1cmx9mAsByAsB4AsBgAwBmAz0qYqehwS4DAG4E4ME2BMO0BUB-BYBgBcB%2526sigh%253Du7TOQNpZlNg%2526label%253D_AITNAME_%2526value%253D_AITVALUE_%3Fsource%3Dcad-loc%26dadc%3D528891555049
+
